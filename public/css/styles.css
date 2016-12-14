@@ -1,0 +1,59 @@
+@font-face {
+    font-family: fontClock;
+    src: url('/fonts/digital-7.ttf');
+    font-weight: bold;
+}
+
+#stopwatch {
+    font-size: 18px;
+    display: inline-block;
+    color: #4d6190;
+}
+
+.timer-task-name {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 3px;
+    font-kerning: auto;
+}
+
+.registration {
+    float: right;
+}
+
+.current-task-margin {
+    margin-top: 9px;
+}
+
+.registration  ul.hr {
+    margin: 2px; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+.registration ul.hr li {
+    display: inline-block; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+.breadcrumb {
+    float: left
+}
+
+.breadcrumb  ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+.breadcrumb ul.hr li {
+    display: inline-block; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+.breadscrumb {
+    display: inline-block;
+    margin: 9px;
+}
+
+.task-table-number {
+    width: 60px;
+}
